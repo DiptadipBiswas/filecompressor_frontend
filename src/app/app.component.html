@@ -1,0 +1,30 @@
+<div class="container-fluid bg-light">
+  <header>
+    <h1 class="heading1">File Compression Tool</h1>
+  </header>
+
+
+<div class="box">
+  <div class="main">
+    <div class="utility">
+      <div class="icon">
+        <img src="/assets/upload.png" alt="">
+      </div>
+      <div class="button m-3">
+        <input class="uploadfile" type="file" (change)="uploadFile($event)">
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{fileName}}</h5>
+      <p class="card-text">Uploaded Name: {{uploadedFile}}</p>
+      <p class="card-text">Compressed File: {{compressedFile}}</p>
+      <button (click)="compressFile()"  class=" btn btn-outline-success m-2">Compress</button>
+      <button (click)="downloadFile()" class="btn btn-outline-danger">Download</button>
+    </div>
+  </div>
+</div>
+
+

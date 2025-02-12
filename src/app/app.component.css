@@ -1,0 +1,44 @@
+.heading1
+{
+    text-align: center;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.card
+{
+    display: block;
+    margin-top: 15px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.utility
+{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.utility button
+{
+    margin-top: 12px;
+}
+
+.utility img
+{
+    border-radius: 90px;
+}
+
